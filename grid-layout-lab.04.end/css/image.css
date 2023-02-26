@@ -10,9 +10,9 @@
   margin: 10px;
 }
 
-.large-right-img {
-  width: 250px;
-  float: right;
+.medium-left-img {
+  width: 100%;
+  float: left;
   margin: 10px;
 }
 
@@ -22,9 +22,9 @@
   margin: 10px;
 }
 
-.medium-left-img {
-  width: 150px;
-  float: left;
+.fruit-n-veg-img {
+  width: 70%;
+  float: top;
   margin: 10px;
 }
 

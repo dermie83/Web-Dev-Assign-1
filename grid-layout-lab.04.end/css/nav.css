@@ -1,7 +1,7 @@
 ul#menu li {
   display: inline;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 ul#menu a {
