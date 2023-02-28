@@ -19,6 +19,7 @@
 
 #maincontent {
   grid-column-start: 2;
+  grid-column-end: span 3;
   display: grid;
   grid-template-columns: 70% 27%;
   grid-gap: 3%;
@@ -27,7 +28,7 @@
 
 #primary {
   display: grid;
-  grid-template-columns: 2% 30% 30% 30% 5%;
+  grid-template-columns: 3% 30% 30% 30%;
   grid-gap: 1%;
   border : solid 1px;
 }
@@ -49,10 +50,26 @@
 
 #secondary {
   grid-column-start: 2;
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: 1% 47% 47% 1%;
+  border : solid 1px;
+}
+
+#inside-secondary-top {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  border : solid 1px;
+}
+
+#inside-secondary-bottom {
+  grid-column-start: 2;
+  grid-column-end: span 3;
   border : solid 1px;
 }
 
 #footer {
   grid-column-start: 2;
+  grid-column-end: span 3;
   border : solid 1px;
 }
