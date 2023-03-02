@@ -55,7 +55,7 @@
 }
 
 #secondary {
-  grid-column-start: 3;
+  /* grid-column-start: 3; */
   display: grid;
   grid-gap: 1%;
   grid-template-columns: 1% 47% 47% 1%;
