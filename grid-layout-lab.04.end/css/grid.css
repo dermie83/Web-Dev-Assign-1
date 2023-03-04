@@ -8,9 +8,6 @@
 #header {
   grid-column-start: 2;
   grid-column-end: span 2;
-  display: grid;
-  grid-template-columns: 2% 47.5% 23% 23%;
-  grid-gap: 1%;
   border : solid 1px;
 }
 
@@ -42,7 +39,7 @@
   grid-column-start: 2;
   grid-column-end: span 2;
   display: grid;
-  grid-template-columns: 3% 22% 22% 22% 22%;
+  grid-template-columns: 1% 18% 18% 18% 18% 20%;
   grid-gap: 1%;
   border : solid 1px;
 }
@@ -52,18 +49,23 @@
   border : solid 1px;
 }
 
-#inside-primary-middle {
+#inside-primary-middle-left {
   grid-column-start: 3;
   border : solid 1px;
 }
 
-#inside-primary-right {
+#inside-primary-middle-right {
   grid-column-start: 4;
   border : solid 1px;
 }
 
-#secondary {
+#inside-primary-right {
   grid-column-start: 5;
+  border : solid 1px;
+}
+
+#secondary {
+  grid-column-start: 6;
   display: grid;
   grid-template-columns: 3% 94% 3% ;
   grid-gap: 1%;
@@ -71,11 +73,6 @@
 }
 
 #secondary-top {
-  grid-column-start: 2;
-  border : solid 1px;
-}
-
-#secondary-middle {
   grid-column-start: 2;
   border : solid 1px;
 }
@@ -91,39 +88,60 @@
   border : solid 1px;
 }
 
-#page-primary-left {
+#page-header {
   grid-column-start: 2;
+  grid-column-end: span 2;
   display: grid;
-  grid-template-columns: 1% 90% 1%;
+  grid-template-columns: 1% 48% 24% 24%;
   grid-gap: 1%;
   border : solid 1px;
 }
 
-#inside-page-primary-left-top {
+#inside-header-right-top {
+  grid-column-start: 2;
+  border : solid 1px;
+  margin-bottom: 80px;
+}
+
+#inside-header-right-bottom {
   grid-column-start: 2;
   border : solid 1px;
 }
 
-#inside-page-primary-left-bottom {
+#page-primary {
   grid-column-start: 2;
-  border : solid 1px;
-}
-
-#page-primary-right {
-  grid-column-start: 3;
-  /* grid-column-end: span 2; */
+  grid-column-end: span 2;
   display: grid;
-  grid-template-columns: 1% 90% 1%;
+  grid-template-columns: 1% 48% 49%;
   grid-gap: 1%;
   border : solid 1px;
 }
 
-#inside-page-primary-right-top {
+#inside-page-header-middle-left {
   grid-column-start: 2;
   border : solid 1px;
 }
 
-#inside-page-primary-right-bottom {
+#inside-page-header-bottom-left {
   grid-column-start: 2;
+  border : solid 1px;
+}
+
+#middle-of-page {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  border : solid 1px;
+  margin-left: 30px;
+}
+
+#inside-page-primary {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  border : solid 1px;
+}
+
+#page-footer {
+  grid-column-start: 2;
+  grid-column-end: span 2;
   border : solid 1px;
 }
