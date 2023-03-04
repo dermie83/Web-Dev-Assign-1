@@ -8,6 +8,27 @@
 #header {
   grid-column-start: 2;
   grid-column-end: span 2;
+  display: grid;
+  grid-template-columns: 2% 47.5% 23% 23%;
+  grid-gap: 1%;
+  border : solid 1px;
+}
+
+#header-left {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  border : solid 1px;
+}
+
+#header-middle {
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  border : solid 1px;
+}
+
+#header-right {
+  grid-column-start: 4;
+  grid-column-end: span 1;
   border : solid 1px;
 }
 
