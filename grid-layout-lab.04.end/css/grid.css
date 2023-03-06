@@ -9,6 +9,7 @@
   grid-column-start: 2;
   grid-column-end: span 2;
   border : solid 1px;
+  margin-left: 30px;
 }
 
 #header-top-left {
@@ -95,11 +96,13 @@
   grid-column-start: 2;
   border : solid 1px;
   margin-bottom: 80px;
+  margin-left: auto;
 }
 
 #inside-header-right-bottom {
   grid-column-start: 2;
   border : solid 1px;
+  margin-left: auto;
 }
 
 #page-primary {
@@ -122,27 +125,36 @@
 #inside-page-header-grid-left {
   grid-column-start: 1;
   border : solid 1px;
+  margin:auto
+  
 }
+
 #inside-page-header-grid-right {
   grid-column-start: 2;
   border : solid 1px;
+  margin:auto
+   
 }
 
 #middle-of-page {
   grid-column-start: 2;
   grid-column-end: span 2;
   border : solid 1px;
-  margin-left: 30px;
+  margin: auto;
 }
 
 #inside-page-primary {
   grid-column-start: 2;
   grid-column-end: span 2;
   border : solid 1px;
+  margin: auto;
 }
+
 
 #page-footer {
   grid-column-start: 2;
   grid-column-end: span 2;
   border : solid 1px;
+  margin: auto;
 }
+
