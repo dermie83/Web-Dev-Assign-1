@@ -18,13 +18,14 @@
 
 .shopping-list-img {
   width: 70%;
-  float: top;
+  float: right;
   margin: 10px;
 }
 
 .title-dish-img {
   width: 100%;
-  float: center;
+  
+  float: top;
   margin: 5px;
 }
 

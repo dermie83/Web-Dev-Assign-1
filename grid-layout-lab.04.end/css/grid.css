@@ -11,15 +11,9 @@
   border : solid 1px;
 }
 
-#header-left {
+#header-top-left {
   grid-column-start: 2;
-  grid-column-end: span 1;
-  border : solid 1px;
-}
-
-#header-middle {
-  grid-column-start: 3;
-  grid-column-end: span 1;
+  grid-column-end: span 2;
   border : solid 1px;
 }
 
@@ -117,12 +111,19 @@
   border : solid 1px;
 }
 
-#inside-page-header-middle-left {
+#inside-page-header-left {
   grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1%;
   border : solid 1px;
 }
 
-#inside-page-header-bottom-left {
+#inside-page-header-grid-left {
+  grid-column-start: 1;
+  border : solid 1px;
+}
+#inside-page-header-grid-right {
   grid-column-start: 2;
   border : solid 1px;
 }
