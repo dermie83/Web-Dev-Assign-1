@@ -3,13 +3,20 @@
   grid-template-columns: 2% 70% 23% 2%;
   grid-gap: 1%;
   border : solid 1px;
+  color: #13696E;
+  font-size: 20px;
+}
+
+h3 {
+  color:black;
 }
 
 #header {
   grid-column-start: 2;
   grid-column-end: span 2;
   border : solid 1px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  /* background-color: ; */
 }
 
 #header-top-left {
@@ -25,9 +32,14 @@
 }
 
 #navigation {
-  grid-column-start: 2;
-  grid-column-end: span 2;
+  grid-column-start: 1;
+  grid-column-end: span 4;
   border : solid 1px;
+  background-color: #74C043;
+  font-size: 20px;
+  font-family:'sans-serif';
+  font-weight: bold;
+  
 }
 
 #primary {
@@ -78,9 +90,10 @@
 }
 
 #footer {
-  grid-column-start: 2;
-  grid-column-end: span 3;
+  grid-column-start: 1;
+  grid-column-end: span 4;
   border : solid 1px;
+  font-family: cursive;
 }
 
 #page-header {
@@ -141,6 +154,7 @@
   grid-column-end: span 2;
   border : solid 1px;
   margin: auto;
+  font-family: cursive;
 }
 
 #inside-page-primary {
@@ -152,9 +166,11 @@
 
 
 #page-footer {
-  grid-column-start: 2;
-  grid-column-end: span 2;
+  grid-column-start: 1;
+  grid-column-end: span 4;
   border : solid 1px;
-  margin: auto;
+  /* margin: auto; */
+  font-family: cursive;
 }
+
 
