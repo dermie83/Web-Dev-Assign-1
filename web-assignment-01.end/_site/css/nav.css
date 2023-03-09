@@ -1,0 +1,22 @@
+ul#menu li {
+  display: inline;
+  float: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+ul#menu a {
+  text-decoration:none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  
+}
+
+#menu li.active a {
+  /* text-shadow: black; */
+  background-color: rgb(1, 47, 24);
+  padding: .1em .1em .1em .1em;
+  color: white;
+}
+
+
