@@ -1,24 +1,6 @@
-.small-right-img {
-  width: 75px;
-  float: right;
-  margin: 5px;
-}
-
-.medium-right-img {
-  width: 150px;
-  float: right;
-  margin: 10px;
-}
-
-.medium-left-img {
-  width: 100%;
-  float: left;
-  margin: 10px;
-}
-
 .shopping-list-img {
   width: 70%;
-  float: right;
+  float: center;
   margin: 10px;
 }
 

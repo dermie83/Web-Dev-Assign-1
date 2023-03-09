@@ -1,0 +1,131 @@
+h2 {
+  color:rgba(207, 0, 0, 0.971);
+  font-size: 1.2em;
+}
+
+h3 {
+  color:black;
+  font-size: 1.2em;
+}
+
+h4 {
+  text-decoration-line: underline;
+  font-size: 1em;
+}
+
+body{
+  font-size: 100%;
+  font-family: 'sans-serif', Tahoma, Verdana;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 1% 70% 23% 2%;
+  grid-gap: 1%;
+  /* border : solid 1px; */
+  color: #0e5155;
+  font-size: 1em;
+  background-color: rgb(60, 143, 52);
+}
+
+#page-navigation {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  /* border : solid 1px; */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left:28px;
+}
+
+#page-header {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  display: grid;
+  grid-template-columns: 1% 48% 24% 24%;
+  grid-gap: 1%;
+  /* border : solid 1px; */
+}
+
+#page-header-left {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  /* border : solid 1px; */
+  background-color: rgb(190, 243, 185);
+  padding: 25px;
+}
+
+#page-header-right {
+  grid-column-start: 4;
+  grid-column-end: span 1;
+  /* border : solid 1px; */
+  background-color: rgb(190, 243, 185);
+  padding: 25px;
+}
+
+#inside-header-right-top {
+  grid-column-start: 2;
+  /* border : solid 1px; */
+  margin-bottom: 80px;
+  margin-left: auto;
+}
+
+#inside-header-right-bottom {
+  grid-column-start: 2;
+  /* border : solid 1px; */
+  margin-left: auto;
+}
+
+#inside-page-header-left {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1%;
+  /* border : solid 1px; */
+  background-color: rgb(209, 242, 143);
+}
+
+#inside-page-header-grid-left {
+  grid-column-start: 1;
+  /* border : solid 1px; */
+  padding-left: 20px;
+  
+}
+
+#inside-page-header-grid-right {
+  grid-column-start: 2;
+  /* border : solid 1px; */
+  margin:auto
+   
+}
+
+#middle-of-page {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  /* border : solid 1px; */
+  margin-left: 29px;
+  font-family: cursive;
+  background-color: rgb(190, 243, 185);
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#page-primary {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 70px;
+  background-color: rgb(190, 243, 185);
+}
+
+#page-footer {
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  border : solid 1px;
+  /* margin: auto; */
+  font-family: cursive;
+}
+
+
+
+

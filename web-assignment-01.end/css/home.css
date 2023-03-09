@@ -1,4 +1,6 @@
-@import url("grid.css");
+@import url("generic-style.css");
+@import url("index-grid.css");
+@import url("pages-grid.css");
 @import url("image.css");
 @import url("nav.css");
 

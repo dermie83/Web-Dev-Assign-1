@@ -15,7 +15,7 @@ ul#menu a {
 #menu li.active a {
   /* text-shadow: black; */
   background-color: rgb(1, 47, 24);
-  padding: .1em 1em .1em 1em;
+  padding: .1em .1em .1em .1em;
   color: white;
 }
 
